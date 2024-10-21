@@ -1,0 +1,82 @@
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* google font  */
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* nav section  */
+
+nav {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+
+    margin: 15px 0px;
+    font-size: larger;
+    display: flex;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul button {
+    padding: 10px 45px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* HeadBannerSection */
+
+.bannerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url('../images/developer.png'), url('../images//header_bg.png');
+    background-size: 80px, 700px, cover;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+
+}
+
+
+
+.skilCotainer {
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0px 6px 10px 0px black;
+}
+
+.inputBtn {
+    padding: 10px 10px;
+    margin: 10px;
+    width: 80%;
+
+}
